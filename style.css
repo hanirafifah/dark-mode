@@ -1,0 +1,66 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
+
+header{
+    color: mediumaquamarine;
+    text-align: center;
+}
+
+body.light {
+    background-color: white;
+}
+
+.foto{
+    width: 100px;
+}
+
+
+.container{
+    display: grid;
+    margin: 50px;
+    padding: 50px;
+    grid-template-areas: 
+        "education experiences skills";
+    background-color:mediumaquamarine;
+}
+
+.education{
+    grid-area: education;
+    background-color: white;
+    width: 300px;
+    margin: 50px;
+    padding: 25px
+}
+
+.experiences{
+    grid-area: experiences;
+    background-color: black;
+    color: white;
+    width: 300px;
+    margin: 50px;
+    padding: 25px
+}
+
+.skills{
+    grid-area: skills;
+    background-color: white;
+    width: 300px;
+    margin: 50px;
+    padding: 25px
+}
+
+
+footer{
+    color: mediumaquamarine;
+    text-align: center;
+}
+.app{
+    width: 30px;
+    margin: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+}
